@@ -16,7 +16,7 @@ defmodule WaylonWeb.Router do
   scope "/", WaylonWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    get "/deploy", PageController, :deploy
   end
 
   # Other scopes may use custom stacks.
