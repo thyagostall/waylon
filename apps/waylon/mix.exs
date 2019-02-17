@@ -38,7 +38,8 @@ defmodule Waylon.MixProject do
     [
       {:ecto_sql, "~> 3.0"},
       {:mariaex, ">= 0.0.0"},
-      {:jason, "~> 1.0"}
+      {:jason, "~> 1.0"},
+      {:sshex, "2.2.1"},
     ]
   end
 
